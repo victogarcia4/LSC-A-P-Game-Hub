@@ -444,6 +444,20 @@ export const GAMES_DATA: Game[] = [
     url: 'https://gemini.google.com/share/5782bdc591c2',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '63',
+    title: 'Neural Play Guide',
+    subjects: ['nervous system', 'neuroscience', 'anatomy', 'review'],
+    url: 'https://neural-play-guide.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '64',
+    title: 'Neural Pathfinders: The Homeostasis Quest',
+    subjects: ['nervous system', 'cns', 'sensory receptors', 'motor responses'],
+    url: 'https://neural-pathfinder-quest.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
