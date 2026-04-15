@@ -311,6 +311,139 @@ export const GAMES_DATA: Game[] = [
     url: 'https://lifespan-skin-health.base44.app',
     exam: ExamType.EXAM_2
   },
+  {
+    id: '44',
+    title: 'Bone Builder',
+    subjects: ['bones', 'skeletal system', 'anatomy', 'play'],
+    url: 'https://bone-builder-play.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '45',
+    title: 'Skeletal Foreman: The Balance of Bone',
+    subjects: ['osteoblasts', 'osteoclasts', 'bone remodeling', 'skeletal system'],
+    url: 'https://bonegame-himtix8c.manus.space/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '46',
+    title: 'Skeletal System AI Review',
+    subjects: ['skeletal system', 'bones', 'anatomy', 'ai review'],
+    url: 'https://gemini.google.com/share/76c2f79dfa77',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '47',
+    title: 'Bio-Bot Joint Lab',
+    subjects: ['joints', 'skeletal system', 'anatomy'],
+    url: 'https://bio-bot-joint-lab.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '48',
+    title: 'Skeletal System Interactive',
+    subjects: ['bones', 'skeletal system', 'anatomy'],
+    url: 'https://aistudio.google.com/apps/e0695792-194a-40a4-93bc-75f183f37e84?fullscreenApplet=true&showPreview=true&showAssistant=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '49',
+    title: 'Bone Tissue Challenge',
+    subjects: ['bone tissue', 'skeletal system', 'histology'],
+    url: 'https://ai.studio/apps/4b363625-db5a-4ce2-b258-24809cdf905c',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '50',
+    title: 'Joint Mechanics Explorer',
+    subjects: ['joints', 'articulations', 'movement'],
+    url: 'https://aistudio.google.com/apps/66e2cc62-0c32-4897-a313-6bd008e16fa6?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '51',
+    title: 'Skeletal System Lab',
+    subjects: ['skeletal system', 'bones', 'anatomy'],
+    url: 'https://ai.studio/apps/33670f5b-aa13-4684-8782-413fc622fca6?fullscreenApplet=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '52',
+    title: 'Joint Explorer',
+    subjects: ['joints', 'articulations', 'skeletal system'],
+    url: 'https://jointgame-6dbvuubz.manus.space/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '53',
+    title: 'Skeletal System Secret Code',
+    subjects: ['skeletal system', 'bones', 'review', 'escape room'],
+    url: 'https://view.genially.com/69c98b99987ae4ddecc53da8',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '54',
+    title: 'Skeletal System Mastery Lab',
+    subjects: ['bones', 'skeletal system', 'anatomy', 'review'],
+    url: 'https://aistudio.google.com/apps/a8b0369e-7b47-4e99-a147-e94e952ad936?fullscreenApplet=true&showPreview=true&showAssistant=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '55',
+    title: 'Joint Anatomy Lab',
+    subjects: ['joints', 'anatomy', 'skeletal system'],
+    url: 'https://id-preview--79f4ecc6-32d7-4738-b194-364fa99dbd39.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '56',
+    title: 'Skeletal Changes in Osteoarthritis',
+    subjects: ['osteoarthritis', 'skeletal system', 'anatomy', 'changes'],
+    url: 'https://view.genially.com/69d43670b7c689e04c673690',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '57',
+    title: 'Skeletal System Anatomy Review',
+    subjects: ['skeletal system', 'bones', 'anatomy'],
+    url: 'https://id-preview--abea3ca2-ae25-46d6-ada8-f3917c2485c9.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '58',
+    title: 'Calcium Quest Vault',
+    subjects: ['calcium homeostasis', 'bone minerals', 'skeletal system'],
+    url: 'https://preview--calcium-quest-vault.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '59',
+    title: 'Synovial Joint Quest: Mission Mobility',
+    subjects: ['synovial joints', 'joints', 'movement', 'skeletal system'],
+    url: 'https://3000-izrqjlhgt4qglokbbbk58-fed26055.us2.manus.computer/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '60',
+    title: 'Skeletal System AI Explorer',
+    subjects: ['skeletal system', 'bones', 'anatomy', 'ai review'],
+    url: 'https://gemini.google.com/share/34db4b080278',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '61',
+    title: 'Fracture Repair Quest',
+    subjects: ['skeletal system', 'anatomy', 'fracture repair', 'bones'],
+    url: 'https://bone-fix-quest.base44.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '62',
+    title: 'Muscular System AI Review',
+    subjects: ['muscular system', 'muscles', 'anatomy', 'ai review'],
+    url: 'https://gemini.google.com/share/5782bdc591c2',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
