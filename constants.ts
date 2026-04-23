@@ -458,6 +458,20 @@ export const GAMES_DATA: Game[] = [
     url: 'https://neural-pathfinder-quest.lovable.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '65',
+    title: 'Brain Shield: Meninges & CSF Explorer',
+    subjects: ['meninges', 'brain coverings', 'cerebrospinal fluid', 'csf'],
+    url: 'https://brainshield-7xpcsyww.manus.space',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '66',
+    title: 'Nervous System Anatomy Hub',
+    subjects: ['nervous system', 'anatomy', 'review', 'ai lab'],
+    url: 'https://ai.studio/apps/72795185-8fe1-474f-a201-b458ea00fbe7?fullscreenApplet=true',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
