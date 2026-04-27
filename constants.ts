@@ -472,6 +472,48 @@ export const GAMES_DATA: Game[] = [
     url: 'https://ai.studio/apps/72795185-8fe1-474f-a201-b458ea00fbe7?fullscreenApplet=true',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '67',
+    title: 'Nervous System Mastery',
+    subjects: ['nervous system', 'anatomy', 'physiology', 'review'],
+    url: 'https://aistudio.google.com/apps/a7c1d82b-4679-43a0-8c7e-11efc86e6a95?showAssistant=true&showPreview=true',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '68',
+    title: 'Neural Pathways Quest',
+    subjects: ['neurons', 'pathways', 'nervous system', 'signaling'],
+    url: 'https://ai.studio/apps/0c8d8bab-9511-4d0b-9ead-75ac11b571e1?fullscreenApplet=true',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '69',
+    title: 'Brain Anatomy Review',
+    subjects: ['brain', 'anatomy', 'nervous system', 'structures'],
+    url: 'https://aistudio.google.com/apps/d37a8891-f448-4c2d-8faa-254e77128a82?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '70',
+    title: 'Neural Guardian: The Signal Path',
+    subjects: ['nervous system', 'homeostasis', 'neurons', 'signaling'],
+    url: 'https://neural-guardian-the-signal-path-383810714515.us-east1.run.app/',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '71',
+    title: 'Autonomic Nervous System Review',
+    subjects: ['autonomic nervous system', 'sympathetic', 'parasympathetic', 'pathways'],
+    url: 'https://view.genially.com/69efddab4e186e8cd8cc0370',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '72',
+    title: 'Autonomic Nervous System AI Lab',
+    subjects: ['autonomic nervous system', 'sympathetic', 'parasympathetic', 'ai review'],
+    url: 'https://gemini.google.com/share/c49e04dd4862',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
