@@ -514,6 +514,34 @@ export const GAMES_DATA: Game[] = [
     url: 'https://gemini.google.com/share/c49e04dd4862',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '73',
+    title: 'Neural Integration Lab',
+    subjects: ['nervous system', 'integration', 'neuroscience', 'signals'],
+    url: 'https://id-preview--1e714ffd-7a1d-4796-b068-6933e285e4da.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '74',
+    title: 'The Signal Architect: CNS Restoration',
+    subjects: ['brain', 'spinal cord', 'sensation', 'integration', 'response'],
+    url: 'https://signalgame-c9x2hlkp.manus.space/',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '75',
+    title: 'Nervous System AI Review',
+    subjects: ['nervous system', 'anatomy', 'physiology', 'ai review'],
+    url: 'https://gemini.google.com/share/19360aeeaeaf',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '76',
+    title: 'Integumentary System AI Review II',
+    subjects: ['integumentary system', 'skin', 'histology', 'review'],
+    url: 'https://gemini.google.com/share/273496f09a6e',
+    exam: ExamType.EXAM_2
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
