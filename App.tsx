@@ -183,7 +183,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12 text-center md:text-left">
             <div>
-              <p className="text-3xl font-display text-black uppercase mb-2">Gathered by Dr. Martinez</p>
+              <p className="text-3xl font-display text-black uppercase mb-2">Gathered by Dr. Victor Garcia Martinez</p>
               <p className="text-lg font-bold text-black/80">Lone Star College North Harris · A&P Faculty</p>
             </div>
             <div className="flex flex-col items-center md:items-end gap-3">
