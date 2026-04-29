@@ -64,29 +64,29 @@ const App: React.FC = () => {
   const toggleMute = () => setIsMuted(prev => !prev);
 
   return (
-    <div className="min-h-screen transition-colors duration-300 dark:bg-slate-950 bg-slate-50 selection:bg-blue-500 selection:text-white">
+    <div className="min-h-screen bg-[#f0f0f0] selection:bg-neo-yellow selection:text-black font-sans pb-24">
       {/* Header */}
-      <header className="sticky top-0 z-50 border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl">
+      <header className="sticky top-0 z-50 border-b-4 border-black bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <div className="p-2 bg-blue-600 rounded-xl shadow-lg shadow-blue-500/20">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <div className="p-2 bg-neo-yellow border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
               </svg>
             </div>
             <div>
-              <h1 className="text-xl font-bold dark:text-white text-slate-900 leading-none">LSC A&P Game Hub</h1>
-              <p className="text-xs text-slate-500 dark:text-slate-400 mt-1 uppercase tracking-widest font-semibold">North Harris Campus</p>
+              <h1 className="text-xl font-display text-black uppercase leading-none tracking-tight">LSC A&P Game Hub</h1>
+              <p className="text-[10px] text-black/60 mt-1 uppercase tracking-[0.2em] font-bold">North Harris Campus</p>
             </div>
           </div>
 
           <div className="flex items-center gap-3">
             <button 
               onClick={toggleMute}
-              className={`p-3 rounded-full transition-all border ${
+              className={`p-3 border-2 border-black transition-all shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] active:shadow-none active:translate-x-[2px] active:translate-y-[2px] ${
                 !isMuted 
-                ? 'bg-blue-50 border-blue-200 text-blue-600 dark:bg-blue-900/30 dark:border-blue-700 dark:text-blue-300' 
-                : 'bg-white border-slate-200 text-slate-500 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'
+                ? 'bg-neo-blue text-white' 
+                : 'bg-white text-black'
               }`}
               title={isMuted ? "Enable Music" : "Mute Music"}
               aria-label="Toggle Background Music"
@@ -101,65 +101,51 @@ const App: React.FC = () => {
                 </svg>
               )}
             </button>
-            <button 
-              onClick={toggleTheme}
-              className="p-3 rounded-full transition-all border bg-white border-slate-200 text-slate-500 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800"
-              title={`Switch to ${theme === 'light' ? 'Dark' : 'Light'} Mode`}
-              aria-label="Toggle Theme"
-            >
-              {theme === 'light' ? (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-                </svg>
-              ) : (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M16.95 16.95l.707.707M7.05 7.05l.707-.707M8 12a4 4 0 118 0 4 4 0 01-8 0z" />
-                </svg>
-              )}
-            </button>
           </div>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Intro */}
-        <div className="max-w-3xl mb-12">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 tracking-tight leading-tight">
-            Anatomy & Physiology <span className="text-blue-600 dark:text-blue-500 underline decoration-blue-500/20 underline-offset-8">Games</span>
+        <div className="max-w-4xl mb-16 bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] p-8 sm:p-12 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-32 h-32 bg-neo-pink -mr-16 -mt-16 rotate-45 border-b-4 border-black" />
+          <h2 className="text-5xl sm:text-7xl font-display text-black mb-8 leading-[0.9] uppercase tracking-tighter">
+            Anatomy & <br/>Physiology <span className="text-neo-blue">Games</span>
           </h2>
-          <p className="text-lg text-slate-600 dark:text-slate-400">
-            Interactive student-built labs and games designed to master A&P concepts. Select an exam below and explore the topics gathered by Dr. Martinez.
+          <p className="text-xl text-black font-medium max-w-2xl leading-relaxed">
+            Interactive student-built labs and games designed to master A&P concepts. 
+            Select an exam below and explore the topics gathered by Dr. Martinez.
           </p>
         </div>
 
         {/* Controls */}
-        <div className="mb-12 space-y-8">
+        <div className="mb-16 space-y-12">
           {/* Search bar */}
-          <div className="relative max-w-2xl group">
-            <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-slate-400 group-focus-within:text-blue-500 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          <div className="relative max-w-2xl">
+            <div className="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </div>
             <input 
               type="text"
-              placeholder="Search subjects (e.g. homeostasis, planes, cells)..."
-              className="block w-full pl-12 pr-4 py-5 border-2 border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 rounded-3xl shadow-xl shadow-slate-200/50 dark:shadow-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 dark:focus:border-blue-600 text-slate-900 dark:text-white placeholder-slate-400 transition-all text-xl outline-none"
+              placeholder="SEARCH SUBJECTS..."
+              className="block w-full pl-16 pr-6 py-6 border-4 border-black bg-white shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] focus:shadow-none focus:translate-x-[6px] focus:translate-y-[6px] transition-all text-black placeholder-black/30 text-2xl font-bold uppercase outline-none"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
 
           {/* Exam Filters */}
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-4">
             {[ExamType.EXAM_1, ExamType.EXAM_2, ExamType.EXAM_3, ExamType.EXAM_4].map((exam) => (
               <button
                 key={exam}
                 onClick={() => setActiveExam(exam)}
-                className={`px-8 py-3 rounded-2xl text-sm font-bold transition-all transform active:scale-95 ${
+                className={`px-10 py-4 border-4 border-black text-lg font-display uppercase transition-all transform active:translate-x-[4px] active:translate-y-[4px] active:shadow-none ${
                   activeExam === exam 
-                    ? 'bg-blue-600 text-white shadow-xl shadow-blue-500/40 border-transparent' 
-                    : 'bg-white dark:bg-slate-900 text-slate-600 dark:text-slate-400 border border-slate-200 dark:border-slate-800 hover:border-blue-400 dark:hover:border-blue-700'
+                    ? 'bg-neo-blue text-white shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]' 
+                    : 'bg-white text-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:bg-neo-yellow'
                 }`}
               >
                 {exam}
@@ -169,23 +155,23 @@ const App: React.FC = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {filteredGames.length > 0 ? (
             filteredGames.map(game => (
               <GameCard key={game.id} game={game} />
             ))
           ) : (
-            <div className="col-span-full py-24 text-center">
-              <div className="mb-6 inline-flex p-6 rounded-full bg-slate-100 dark:bg-slate-900 text-slate-300 dark:text-slate-700">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <div className="col-span-full py-32 text-center bg-white border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
+              <div className="mb-8 inline-flex p-8 border-4 border-black bg-neo-red shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">No matching games</h3>
-              <p className="text-slate-500 dark:text-slate-400 max-w-md mx-auto">
+              <h3 className="text-4xl font-display text-black mb-4 uppercase">No match found</h3>
+              <p className="text-black font-bold max-w-md mx-auto uppercase text-sm px-4">
                 {activeExam !== ExamType.EXAM_1 
-                  ? "Content for this exam module is under construction. Check back soon!" 
-                  : "We couldn't find any games matching that keyword. Try searching for 'planes', 'cells', or 'atoms'."}
+                  ? "SYSTEM ERROR: CONTENT UNDER CONSTRUCTION." 
+                  : "TRY ANOTHER KEYWORD. DATA NOT FOUND."}
               </p>
             </div>
           )}
@@ -193,16 +179,18 @@ const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="mt-24 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+      <footer className="mt-32 border-t-4 border-black bg-neo-yellow">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-12 text-center md:text-left">
             <div>
-              <p className="text-xl font-bold text-slate-900 dark:text-white mb-1">Gathered by Dr. Victor Garcia Martinez</p>
-              <p className="text-slate-500 dark:text-slate-400">Lone Star College North Harris · Anatomy & Physiology Faculty</p>
+              <p className="text-3xl font-display text-black uppercase mb-2">Gathered by Dr. Martinez</p>
+              <p className="text-lg font-bold text-black/80">Lone Star College North Harris · A&P Faculty</p>
             </div>
-            <div className="flex flex-col items-center md:items-end gap-2 text-slate-400 dark:text-slate-600">
-              <p className="text-sm font-medium">Empowering Student Learning</p>
-              <p className="text-xs">© {new Date().getFullYear()} LSC-North Harris. All Rights Reserved.</p>
+            <div className="flex flex-col items-center md:items-end gap-3">
+              <div className="px-6 py-2 border-2 border-black bg-white font-mono text-sm font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
+                EMPOWERING LEARNING
+              </div>
+              <p className="font-mono text-xs font-bold uppercase">© {new Date().getFullYear()} LSC-North Harris. BUILD VERSION 4.0</p>
             </div>
           </div>
         </div>

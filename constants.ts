@@ -542,6 +542,13 @@ export const GAMES_DATA: Game[] = [
     url: 'https://gemini.google.com/share/273496f09a6e',
     exam: ExamType.EXAM_2
   },
+  {
+    id: '77',
+    title: 'Neural Network: System Restore — Neuroscience Mastery Game',
+    subjects: ['nervous system', 'neurons', 'cns', 'glial cells', 'neuroscience'],
+    url: 'https://neural-pal-quiz.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
