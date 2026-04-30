@@ -549,6 +549,13 @@ export const GAMES_DATA: Game[] = [
     url: 'https://neural-pal-quiz.lovable.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '78',
+    title: 'Nervous System Interactive Mastery',
+    subjects: ['nervous system', 'physiology', 'anatomy', 'interactive review'],
+    url: 'https://aistudio.google.com/apps/aff97c51-4d2c-4452-ad05-a3276122c8da?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
