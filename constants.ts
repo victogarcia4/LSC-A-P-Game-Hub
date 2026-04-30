@@ -556,6 +556,13 @@ export const GAMES_DATA: Game[] = [
     url: 'https://aistudio.google.com/apps/aff97c51-4d2c-4452-ad05-a3276122c8da?showPreview=true&showAssistant=true&fullscreenApplet=true',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '79',
+    title: 'Nervous System Integration Quiz',
+    subjects: ['nervous system', 'integration', 'physiology', 'synapses'],
+    url: 'https://id-preview--c80f36bd-3e9c-4939-ac7a-da22ced475a3.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
