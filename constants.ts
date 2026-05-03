@@ -563,6 +563,20 @@ export const GAMES_DATA: Game[] = [
     url: 'https://id-preview--c80f36bd-3e9c-4939-ac7a-da22ced475a3.lovable.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '80',
+    title: 'Integumentary System AI Review III',
+    subjects: ['integumentary system', 'skin', 'tissues', 'anatomy'],
+    url: 'https://gemini.google.com/share/b420a407b5c2',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '81',
+    title: 'NeuroQuest',
+    subjects: ['nervous system', 'neurons', 'neuroanatomy', 'neuron structure'],
+    url: 'https://master-neuron-mind.base44.app/#game-content',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay

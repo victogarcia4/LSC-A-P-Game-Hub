@@ -114,7 +114,7 @@ const App: React.FC = () => {
           </h2>
           <p className="text-xl text-black font-medium max-w-2xl leading-relaxed">
             Interactive student-built labs and games designed to master A&P concepts. 
-            Select an exam below and explore the topics gathered by Dr. Martinez.
+            Select an exam below and explore the topics gathered by Dr. Victor Garcia Martinez.
           </p>
         </div>
 
