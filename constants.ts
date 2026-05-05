@@ -577,6 +577,13 @@ export const GAMES_DATA: Game[] = [
     url: 'https://master-neuron-mind.base44.app/#game-content',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '82',
+    title: 'Brain Quest: Left vs Right & The Memory Mission',
+    subjects: ['brain', 'hemispheres', 'memory', 'anatomy'],
+    url: 'https://brainquest-tcgrqu7m.manus.space/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
