@@ -633,6 +633,13 @@ export const GAMES_DATA: Game[] = [
     url: 'https://scaffold-quest.lovable.app/',
     exam: ExamType.EXAM_3
   },
+  {
+    id: '90',
+    title: 'Histo-link Pro',
+    subjects: ['homeostasis', 'cells', 'chemistry', 'anatomy', 'exam 1'],
+    url: 'https://gemini.google.com/share/2ed40480e287',
+    exam: ExamType.EXAM_1
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
