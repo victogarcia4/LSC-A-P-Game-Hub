@@ -640,6 +640,13 @@ export const GAMES_DATA: Game[] = [
     url: 'https://gemini.google.com/share/2ed40480e287',
     exam: ExamType.EXAM_1
   },
+  {
+    id: '91',
+    title: 'cell_explorer',
+    subjects: ['cells', 'tissues', 'homeostasis', 'chemistry', 'anatomy'],
+    url: 'https://ais-pre-zpno2mxu5y47mkbdlsdj5n-721187417791.us-east1.run.app',
+    exam: ExamType.EXAM_1
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
