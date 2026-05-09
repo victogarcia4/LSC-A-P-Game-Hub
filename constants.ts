@@ -626,6 +626,13 @@ export const GAMES_DATA: Game[] = [
     url: 'https://bone-builder-quest.lovable.app/',
     exam: ExamType.EXAM_3
   },
+  {
+    id: '89',
+    title: 'The Grand Scaffolding',
+    subjects: ['skeletal system', 'bone functions', 'homeostasis', 'anatomy'],
+    url: 'https://scaffold-quest.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
