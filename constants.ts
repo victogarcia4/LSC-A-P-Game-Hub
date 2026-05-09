@@ -584,6 +584,48 @@ export const GAMES_DATA: Game[] = [
     url: 'https://brainquest-tcgrqu7m.manus.space/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '83',
+    title: 'NeuroAge Conductor',
+    subjects: ['nervous system', 'neuroconduction', 'aging', 'anatomy'],
+    url: 'https://preview--neuro-age-conductor.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '84',
+    title: 'The Vesicle Voyage',
+    subjects: ['cell transport', 'endocytosis', 'exocytosis', 'cell biology'],
+    url: 'https://vesicle-voyage-game.lovable.app/',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '85',
+    title: 'Mito-Pac Maze',
+    subjects: ['cellular biology', 'mitosis', 'cell cycle'],
+    url: 'https://mitopac-cell-quest.base44.app/',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '86',
+    title: 'Secretory Sorting Station',
+    subjects: ['glands', 'secretory', 'histology', 'gland classification'],
+    url: 'https://gland-quest-decoded.lovable.app/',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '87',
+    title: 'Integumentary Architect',
+    subjects: ['skin', 'layers', 'integumentary system', 'bio-engineering'],
+    url: 'https://extracredit2.lovable.app/',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '88',
+    title: 'Skeletal Architect: The Long Bone Challenge',
+    subjects: ['skeletal system', 'long bone', 'anatomy', 'bone structure'],
+    url: 'https://bone-builder-quest.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay

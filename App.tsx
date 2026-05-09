@@ -120,20 +120,33 @@ const App: React.FC = () => {
 
         {/* Controls */}
         <div className="mb-16 space-y-12">
-          {/* Search bar */}
-          <div className="relative max-w-2xl">
-            <div className="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+          {/* Search bar & Counter */}
+          <div className="flex flex-col lg:flex-row items-stretch lg:items-center gap-6 lg:gap-12">
+            <div className="relative flex-1 max-w-2xl">
+              <div className="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+              <input 
+                type="text"
+                placeholder="SEARCH SUBJECTS..."
+                className="block w-full pl-16 pr-6 py-6 border-4 border-black bg-white shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] focus:shadow-none focus:translate-x-[6px] focus:translate-y-[6px] transition-all text-black placeholder-black/30 text-2xl font-bold uppercase outline-none"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+              />
             </div>
-            <input 
-              type="text"
-              placeholder="SEARCH SUBJECTS..."
-              className="block w-full pl-16 pr-6 py-6 border-4 border-black bg-white shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] focus:shadow-none focus:translate-x-[6px] focus:translate-y-[6px] transition-all text-black placeholder-black/30 text-2xl font-bold uppercase outline-none"
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-            />
+
+            {/* Game Count Component */}
+            <div className="flex items-center gap-4 bg-white border-4 border-black p-4 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] self-start lg:self-auto">
+              <div className="bg-neo-blue text-white w-16 h-16 flex items-center justify-center border-4 border-black -rotate-3">
+                <span className="text-3xl font-display">{filteredGames.length}</span>
+              </div>
+              <div className="uppercase">
+                <p className="text-xs font-bold text-black/60 leading-none">Interactive</p>
+                <p className="text-lg font-display text-black leading-none mt-1">Games Found</p>
+              </div>
+            </div>
           </div>
 
           {/* Exam Filters */}
