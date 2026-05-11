@@ -647,6 +647,62 @@ export const GAMES_DATA: Game[] = [
     url: 'https://ais-pre-zpno2mxu5y47mkbdlsdj5n-721187417791.us-east1.run.app',
     exam: ExamType.EXAM_1
   },
+  {
+    id: '92',
+    title: 'Karen\'s Anatomy Practice',
+    subjects: ['anatomy', 'physiology', 'review', 'interactive'],
+    url: 'https://www.educaplay.com/user/14668853-karen/',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '93',
+    title: 'The Mirror of Time',
+    subjects: ['integumentary system', 'aging', 'skin', 'health'],
+    url: 'https://mirror-time-lab.base44.app/',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '94',
+    title: 'Integumentary System AI Lab',
+    subjects: ['integumentary system', 'skin', 'layers', 'functions'],
+    url: 'https://aistudio.google.com/apps/8f5e976f-6d77-4a1a-a6bf-46ac63b7ef81?fullscreenApplet=true&showPreview=true&showAssistant=true',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '95',
+    title: 'Skeletal System Master Lab',
+    subjects: ['skeletal system', 'bones', 'anatomy', 'physiology'],
+    url: 'https://ais-pre-xlrl23iwwsnywlvpnxerk4-266754850637.us-east5.run.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '96',
+    title: 'Define It! Anatomy vs. Physiology',
+    subjects: ['anatomy', 'physiology', 'intro', 'definitions'],
+    url: 'https://play-anatomy-play.lovable.app/',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '97',
+    title: 'Skin Through Time',
+    subjects: ['integumentary system', 'aging', 'skin', 'lifespan'],
+    url: 'https://skin-deep-adventure.lovable.app',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '98',
+    title: 'Anatomy vs. Physiology Mastery',
+    subjects: ['anatomy', 'physiology', 'intro', 'definitions'],
+    url: 'https://play-anatomy-play.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '99',
+    title: 'Neural Nexus',
+    subjects: ['spinal nerves', 'ans', 'autonomic nervous system', 'neuro'],
+    url: 'https://neuro-cipher-game.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
