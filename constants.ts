@@ -717,6 +717,55 @@ export const GAMES_DATA: Game[] = [
     url: 'https://fast-nerve-play.base44.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '102',
+    title: 'Cell Commander: The M-Phase Mission',
+    subjects: ['cells', 'mitosis', 'm-phase', 'division'],
+    url: 'https://cell-commander-quest.lovable.app/',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '103',
+    title: 'Cell Biology Laboratory',
+    subjects: ['cells', 'organelles', 'anatomy', 'lab'],
+    url: 'https://aistudio.google.com/apps/08208088-6bd6-4b4e-9790-b9d96934b410?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '104',
+    title: 'Skin & Tissues Deep Dive',
+    subjects: ['integumentary system', 'skin', 'tissues', 'histology'],
+    url: 'https://aistudio.google.com/apps/71781266-1cad-4120-98c7-f6ab61ac92ef?fullscreenApplet=true&showPreview=true&showAssistant=true',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '105',
+    title: 'Secretory Sorting Station',
+    subjects: ['glands', 'secretory', 'histology', 'gland classification'],
+    url: 'https://gland-quest-decoded.lovable.app/',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '106',
+    title: 'Bone & Joint Architect',
+    subjects: ['skeletal system', 'bones', 'joints', 'anatomy'],
+    url: 'https://aistudio.google.com/apps/67da7e9e-b668-4046-b21c-aa6db80b9098?fullscreenApplet=true&showPreview=true&showAssistant=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '107',
+    title: 'Neural Signal Path Lab',
+    subjects: ['nervous system', 'neuroanatomy', 'physiology', 'signals'],
+    url: 'https://aistudio.google.com/apps/e4145b81-1f25-43d9-a9a3-ba4baf45b1a8?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '108',
+    title: 'Sensory Receptors Lab',
+    subjects: ['sensory receptors', 'transduction', 'nervous system', 'senses'],
+    url: 'https://sensory-spark-lab.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay

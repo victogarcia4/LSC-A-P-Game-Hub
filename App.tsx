@@ -189,6 +189,35 @@ const App: React.FC = () => {
             </div>
           )}
         </div>
+
+        {/* Author Section */}
+        <div className="max-w-xl mx-auto md:mx-0 mt-24">
+          <div className="bg-[#0b1120] text-white p-6 sm:p-8 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col sm:flex-row items-center gap-6 sm:gap-8 transition-transform hover:scale-[1.02]">
+            <div className="relative">
+              <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full border-4 border-[#1e293b] overflow-hidden shadow-xl">
+                <img 
+                  src="input_file_1.png" 
+                  alt="Dr. Victor Garcia Martinez" 
+                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = btoa(target.src) === btoa('input_file_1.png') ? 'https://ui-avatars.com/api/?name=Dr+Victor+Garcia&background=4361ee&color=fff&size=128' : target.src;
+                  }}
+                />
+              </div>
+              <div className="absolute bottom-1 right-1 w-6 h-6 bg-neo-green rounded-full border-4 border-[#0b1120] shadow-glow animate-pulse" />
+            </div>
+            <div className="text-center sm:text-left">
+              <p className="text-neo-blue/80 text-[10px] font-mono font-bold uppercase tracking-[0.3em] mb-2">Hub Built By</p>
+              <h3 className="text-2xl sm:text-3xl font-display uppercase leading-none mb-2 tracking-tight">Dr. Victor Garcia Martinez</h3>
+              <div className="space-y-1">
+                <p className="text-xs sm:text-sm font-bold text-slate-400 uppercase tracking-wider">Anatomy & Physiology Faculty</p>
+                <p className="text-xs sm:text-sm font-bold text-neo-cyan uppercase tracking-wider">Lone Star College North Harris</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
 
       {/* Footer */}
@@ -196,8 +225,8 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12 text-center md:text-left">
             <div>
-              <p className="text-3xl font-display text-black uppercase mb-2">Gathered by Dr. Victor Garcia Martinez</p>
-              <p className="text-lg font-bold text-black/80">Lone Star College North Harris · A&P Faculty</p>
+              <p className="text-3xl font-display text-black uppercase mb-2">LSC A&P Game Hub</p>
+              <p className="text-lg font-bold text-black/80">Supporting student success through interactive learning.</p>
             </div>
             <div className="flex flex-col items-center md:items-end gap-3">
               <div className="px-6 py-2 border-2 border-black bg-white font-mono text-sm font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]">
