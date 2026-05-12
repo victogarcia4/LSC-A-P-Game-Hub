@@ -703,6 +703,20 @@ export const GAMES_DATA: Game[] = [
     url: 'https://neuro-cipher-game.lovable.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '100',
+    title: 'Kinetic Hero: The Rigging Lab',
+    subjects: ['joint movements', 'skeletal system', 'anatomy', 'rigging'],
+    url: 'https://kinetic-rig-lab.base44.app/?is_new_user=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '101',
+    title: 'Fast Nerves',
+    subjects: ['nervous system', 'neuroanatomy', 'physiology', 'challenges'],
+    url: 'https://fast-nerve-play.base44.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
