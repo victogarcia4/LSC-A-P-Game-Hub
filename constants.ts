@@ -899,6 +899,34 @@ export const GAMES_DATA: Game[] = [
     url: 'https://nerve-pathway-navigator-508480975069.us-east1.run.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '128',
+    title: 'AI Mastery Lab: Exam 1 Review',
+    subjects: ['anatomy', 'physiology', 'chemistry', 'cells'],
+    url: 'https://aistudio.google.com/apps/a65c0867-bd08-4850-b3f8-c106d5000a2a?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '129',
+    title: 'AI Mastery Lab: Exam 2 Review',
+    subjects: ['tissues', 'histology', 'integumentary system', 'skin'],
+    url: 'https://aistudio.google.com/apps/77193cab-9a4f-459a-9c8c-26ed85474b90?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '130',
+    title: 'AI Mastery Lab: Exam 3 Review',
+    subjects: ['skeletal system', 'bones', 'joints', 'articulations'],
+    url: 'https://aistudio.google.com/apps/4733fbdc-739d-4e3a-b250-22d08134761c?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '131',
+    title: 'AI Mastery Lab: Exam 4 Review',
+    subjects: ['nervous system', 'muscular system', 'brain', 'nerves'],
+    url: 'https://aistudio.google.com/apps/3e885971-b70b-47f2-9285-0788f4dc51a0?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
