@@ -196,14 +196,19 @@ const App: React.FC = () => {
             <div className="relative">
               <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full border-4 border-[#1e293b] overflow-hidden shadow-xl bg-[#1e293b] flex items-center justify-center">
                 <img 
-                  src="input_file_1.png" 
+                  src="/input_file_1.png" 
                   alt="Dr. Victor Garcia Martinez" 
                   className="w-full h-full object-cover hover:scale-110 transition-all duration-500" 
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    // Only fallback if the specific input_file fails after multiple turns
-                    if (!target.src.includes('ui-avatars')) {
-                       target.src = 'https://ui-avatars.com/api/?name=Victor+Garcia+M&background=4361ee&color=fff&size=200&bold=true';
+                    const fallbackAvatar = 'https://ui-avatars.com/api/?name=Victor+Garcia+M&background=4361ee&color=fff&size=200&bold=true';
+                    
+                    if (target.src.includes('input_file_1.png')) {
+                      // Try the other common index if the first fails
+                      target.src = '/input_file_0.png';
+                    } else if (target.src.includes('input_file_0.png')) {
+                      // Only if both fail, go to the text fallback
+                      target.src = fallbackAvatar;
                     }
                   }}
                 />
