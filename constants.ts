@@ -801,6 +801,34 @@ export const GAMES_DATA: Game[] = [
     url: 'https://glia-guardians-quest.lovable.app',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '114',
+    title: 'Membrane Gatekeeper: The Ion Odyssey',
+    subjects: ['cell membrane', 'transport', 'diffusion', 'active transport'],
+    url: 'https://cellgate-guardians.lovable.app/',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '115',
+    title: 'The Joint-Bot Workshop',
+    subjects: ['synovial joints', 'articulations', 'skeletal system', 'motion'],
+    url: 'https://jointbot-workshop.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '116',
+    title: 'The Neural Network Architect',
+    subjects: ['neurons', 'action potential', 'nervous system', 'synapses'],
+    url: 'https://neuron-pulse-builder.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '117',
+    title: 'PNS Command Center: Peripheral Patrol',
+    subjects: ['PNS', 'reflexes', 'nervous system', 'signaling'],
+    url: 'https://neural-pathways-hq.lovable.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
