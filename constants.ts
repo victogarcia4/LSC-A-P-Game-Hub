@@ -829,6 +829,76 @@ export const GAMES_DATA: Game[] = [
     url: 'https://neural-pathways-hq.lovable.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '118',
+    title: 'ChemQuest: Atoms to Compounds',
+    subjects: ['atoms', 'compounds', 'chemistry', 'bonding'],
+    url: 'https://chemquest-atoms-to-compounds-508480975069.us-east1.run.app/',
+    exam: ExamType.EXAM_1
+  },
+  {
+    id: '119',
+    title: 'Membrane Master: 4 Minigames',
+    subjects: ['cell membrane', 'transport', 'osmosis', 'diffusion'],
+    url: 'https://membrane-master-4-minigames-508480975069.us-east1.run.app/',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '120',
+    title: 'Tissue Titans: The Minigames',
+    subjects: ['tissues', 'histology', 'epithelial', 'connective'],
+    url: 'https://tissue-titans-the-minigames-508480975069.us-east1.run.app/',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '121',
+    title: 'Histology & Tissue Review',
+    subjects: ['histology', 'tissues', 'anatomy', 'review'],
+    url: 'https://aistudio.google.com/apps/3ed333f5-1aaf-459e-9617-73952ee35529?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '122',
+    title: 'Wound Healers: Tissue Repair',
+    subjects: ['tissue repair', 'fibroblasts', 'stem cells', 'wound healing'],
+    url: 'https://cell-magic-healing.lovable.app/',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '123',
+    title: 'Bone Shape Quest',
+    subjects: ['bones', 'skeletal system', 'bone classification', 'anatomy'],
+    url: 'https://bone-shape-quest-508480975069.us-east1.run.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '124',
+    title: 'Axial Skeleton Mastery',
+    subjects: ['axial skeleton', 'bones', 'skull', 'vertebrae'],
+    url: 'https://aistudio.google.com/apps/1723734e-cfdd-4acd-ae7d-eed200509dde?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '125',
+    title: 'Appendicular Skeleton Mastery',
+    subjects: ['appendicular skeleton', 'bones', 'limbs', 'pelvis'],
+    url: 'https://aistudio.google.com/apps/c0841b28-b16c-4f8a-8830-c636c5e85911?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '126',
+    title: 'The Brain Adventure: Development & Functions',
+    subjects: ['brain', 'neuroanatomy', 'cerebrum', 'brainstem'],
+    url: 'https://braingame-h3jfjjte.manus.space/',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '127',
+    title: 'Nerve Pathway Navigator',
+    subjects: ['nerves', 'PNS', 'pathways', 'signaling'],
+    url: 'https://nerve-pathway-navigator-508480975069.us-east1.run.app/',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay

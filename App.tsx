@@ -198,10 +198,13 @@ const App: React.FC = () => {
                 <img 
                   src="input_file_1.png" 
                   alt="Dr. Victor Garcia Martinez" 
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
+                  className="w-full h-full object-cover hover:scale-110 transition-all duration-500" 
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = 'https://ui-avatars.com/api/?name=Victor+Garcia+M&background=4361ee&color=fff&size=200&bold=true';
+                    // Only fallback if the specific input_file fails after multiple turns
+                    if (!target.src.includes('ui-avatars')) {
+                       target.src = 'https://ui-avatars.com/api/?name=Victor+Garcia+M&background=4361ee&color=fff&size=200&bold=true';
+                    }
                   }}
                 />
               </div>
