@@ -780,6 +780,27 @@ export const GAMES_DATA: Game[] = [
     url: 'https://fluid-friction-fix.lovable.app/',
     exam: ExamType.EXAM_3
   },
+  {
+    id: '111',
+    title: 'Nervous System Architecture Lab',
+    subjects: ['brain', 'CNS', 'neurons', 'neuroanatomy'],
+    url: 'https://aistudio.google.com/apps/89caca45-b45f-4cbf-b595-ee62d212adde?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '112',
+    title: 'Autonomic & Peripheral Review',
+    subjects: ['ANS', 'PNS', 'reflexes', 'cranial nerves'],
+    url: 'https://aistudio.google.com/apps/7cd59909-48da-49a7-bb68-e54f5bc4a7f7?fullscreenApplet=true&showPreview=true&showAssistant=true',
+    exam: ExamType.EXAM_4
+  },
+  {
+    id: '113',
+    title: 'The Neural Support Squad',
+    subjects: ['neuroglia', 'glial cells', 'CNS', 'brain support'],
+    url: 'https://glia-guardians-quest.lovable.app',
+    exam: ExamType.EXAM_4
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
