@@ -766,6 +766,20 @@ export const GAMES_DATA: Game[] = [
     url: 'https://sensory-spark-lab.lovable.app/',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '109',
+    title: 'Histology & Skin Review Lab',
+    subjects: ['tissues', 'histology', 'integumentary system', 'skin'],
+    url: 'https://aistudio.google.com/apps/d1652dfb-1571-4312-940b-2899e38eb835?showPreview=true&showAssistant=true&fullscreenApplet=true',
+    exam: ExamType.EXAM_2
+  },
+  {
+    id: '110',
+    title: 'Bio-Lubrication Lab',
+    subjects: ['synovial joints', 'cartilage', 'skeletal system', 'joint mechanics'],
+    url: 'https://fluid-friction-fix.lovable.app/',
+    exam: ExamType.EXAM_3
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay

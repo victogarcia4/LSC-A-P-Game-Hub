@@ -194,15 +194,14 @@ const App: React.FC = () => {
         <div className="max-w-xl mx-auto md:mx-0 mt-24">
           <div className="bg-[#0b1120] text-white p-6 sm:p-8 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col sm:flex-row items-center gap-6 sm:gap-8 transition-transform hover:scale-[1.02]">
             <div className="relative">
-              <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full border-4 border-[#1e293b] overflow-hidden shadow-xl">
+              <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full border-4 border-[#1e293b] overflow-hidden shadow-xl bg-[#1e293b] flex items-center justify-center">
                 <img 
                   src="input_file_1.png" 
                   alt="Dr. Victor Garcia Martinez" 
-                  referrerPolicy="no-referrer"
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.src = btoa(target.src) === btoa('input_file_1.png') ? 'https://ui-avatars.com/api/?name=Dr+Victor+Garcia&background=4361ee&color=fff&size=128' : target.src;
+                    target.src = 'https://ui-avatars.com/api/?name=Victor+Garcia+M&background=4361ee&color=fff&size=200&bold=true';
                   }}
                 />
               </div>
