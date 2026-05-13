@@ -927,6 +927,20 @@ export const GAMES_DATA: Game[] = [
     url: 'https://aistudio.google.com/apps/3e885971-b70b-47f2-9285-0788f4dc51a0?showPreview=true&showAssistant=true&fullscreenApplet=true',
     exam: ExamType.EXAM_4
   },
+  {
+    id: '132',
+    title: 'Funny Bone Quest',
+    subjects: ['skeletal system', 'bones', 'humor', 'anatomy'],
+    url: 'https://funny-bone-build-pro.base44.app/',
+    exam: ExamType.EXAM_3
+  },
+  {
+    id: '133',
+    title: 'Tissue Voyage',
+    subjects: ['tissues', 'histology', 'epithelial', 'connective'],
+    url: 'https://tissue-voyage-core.base44.app/',
+    exam: ExamType.EXAM_2
+  },
 ];
 
 // Using a calm, educational-style loop from Pixabay
